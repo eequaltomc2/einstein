@@ -31,7 +31,7 @@ package java_project;
 	    try {
 	      // This will load the MySQL driver, each DB has its own driver
 	      Class.forName("com.mysql.jdbc.Driver");
-	      
+	      //this is my second project
 	      // Setup the connection with the DB
 	      connect = DriverManager
 	          .getConnection("jdbc:mysql://127.0.0.1:3306/mydb","root","password123");
